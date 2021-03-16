@@ -1,36 +1,55 @@
 body{
   display: flex;
   justify-content: center;
-  background: blue;
+  background: #eddbc5;
+}
+
+h1{
+  font-family: "Lucida Handwriting", cursive;
+  display: flex;
+  justify-content: center;
+}
+
+center{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
 }
 
 #container{
     position: relative;
     top: 100px;
     width: 500px;
+    font-family: "Lucida Handwriting", cursive;
 }
 
 #content-box{
   background: #FFF;
   padding: 15px;
   margin-bottom: 15px;
+  font-family: Garamond, serif;
 }
 
 ul{
   position: relative;
   margin-bottom: 10px;
   list-style-type: none;
+  align-items: center;
   padding: 0px;
   display: flex;
-  justify-content: left;
+  justify-content: center;
 }
 
 a{
   text-decoration: none;
   background: #FFF;
-  padding: 15px;
+  width: 100px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
 }
 
 a:hover{
-  background: red;
+  background: #95afb4;
 }
